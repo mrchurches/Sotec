@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-export default class ContactUs extends Component {
-  render() {
-    let resumeData = this.props.resumeData;
+export default function ContactUs({resumeData}) {
+  
     return (
       <section id="contact">
           <div className="row section-head">
@@ -23,4 +22,3 @@ export default class ContactUs extends Component {
         </section>
         );
   }
-}

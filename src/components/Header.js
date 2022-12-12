@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-export default class Header extends Component {
-  render() {
-    let resumeData = this.props.resumeData;
+export default function Header({resumeData}) {
+    
     return (
       <React.Fragment>
       
@@ -48,4 +47,3 @@ export default class Header extends Component {
       </React.Fragment>
     );
   }
-}
