@@ -6,10 +6,6 @@ import emailjs from "@emailjs/browser"
 export default function ContactUs({resumeData}) {
   const form = useRef()
 
-
-  console.log(form)
-
-
   const sendEmail = (e) => {
     e.preventDefault();
 
