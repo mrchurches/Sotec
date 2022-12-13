@@ -4,7 +4,9 @@ let resumeData = {
     "role": "Creción de diseño web y aplicaciones",
     "linkedinId":"Your LinkedIn Id",
     "skypeid": "Your skypeid",
-    "roleDescription": "creamos soluciones blah blah blah",
+    "roleDescription": "Soluciones Tecnologicas",
+
+
     "socialLinks":[
         {
           "name":"linkedin",
@@ -22,8 +24,8 @@ let resumeData = {
           "className":"fa fa-twitter"
         }
       ],
-    "aboutme":"currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
+    "aboutme":"Una empresa que se dedica a hacer páginas web se encarga de diseñar y desarrollar sitios web para sus clientes. Esto incluye la creación del diseño y la estructura de la página, la implementación de funcionalidades y características específicas, y la integración con otras plataformas y herramientas en línea. La empresa trabaja con sus clientes para entender sus necesidades y objetivos, y luego utiliza sus habilidades técnicas y creativas para crear una página web que sea atractiva, fácil de usar y efectiva para alcanzar los objetivos del cliente.",
+    "address":"Spain - Argentina",
     "website":"https://rbhatia46.github.io",
     "education":[
       {
