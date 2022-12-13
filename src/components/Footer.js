@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 export default function Footer({resumeData}) {
     
     return (
@@ -7,9 +7,9 @@ export default function Footer({resumeData}) {
         <div className="twelve columns">
           <ul className="social-links">
             {
-              resumeData.socialLinks && resumeData.socialLinks.map((item)=>{
+              resumeData.socialLinks && resumeData.socialLinks.map((item, index)=>{
                 return(
-                  <li>
+                  <li key={index}>
                     <a href={item.url}>
                     <i className={item.className} />
                     </a>

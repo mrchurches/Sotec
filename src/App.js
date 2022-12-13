@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./components/Header";
+import NavBar from "./components/NavBar";
 import About from "./components/About";
 import Resume from "./components/Resume";
 import Portfolio from "./components/Portfolio";
@@ -27,7 +27,7 @@ import resumeData from "./resumeData";
 function App() {
   return (
     <div className="App">
-      <Header resumeData={resumeData} />
+      <NavBar resumeData={resumeData} />
       <About resumeData={resumeData} />
       <Resume resumeData={resumeData} />
       <Portfolio resumeData={resumeData} />

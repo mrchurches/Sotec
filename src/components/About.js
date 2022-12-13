@@ -13,7 +13,7 @@ export default function About({resumeData}) {
 
             <div className="nine columns main-col">
 
-               <h2>About Me</h2>
+               <h2>About Us</h2>
                <p>
                {
                  resumeData.aboutme
