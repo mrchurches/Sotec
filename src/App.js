@@ -7,6 +7,9 @@ import Testimonials from "./components/Testimonials";
 import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
 import resumeData from "./resumeData";
+import { ChatBotKit } from "./components/chatbot/Chatbot";
+
+import "./App.css"
 
 // class App extends Component {
 //   render() {
@@ -27,6 +30,7 @@ import resumeData from "./resumeData";
 function App() {
   return (
     <div className="App">
+      <ChatBotKit/>
       <NavBar resumeData={resumeData} />
       <About resumeData={resumeData} />
       <Resume resumeData={resumeData} />
