@@ -1,97 +1,75 @@
 import React from 'react';
-export default function Resume({resumeData}){
-    return (
+import style from '../style/resume.module.css'
+
+
+export default function Resume({ resumeData }) {
+   return (
       <section id="resume">
 
          <div className="row education">
 
             <div className="three columns header-col">
-               <h1><span>Education</span></h1>
+               <h1><span>{"¿Nosotros?"}</span></h1>
             </div>
 
             <div className="nine columns main-col">
-              {
-                resumeData.education && resumeData.education.map((item, index)=>{
-                  return(
-                    <div key={index} className="row item">
-                       <div className="twelve columns">
-                          <h3>{item.UniversityName}</h3>
-                          <p className="info">
-                          {item.specialization}
-                          <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em></p>
-                          <p>
-                          {item.Achievements}
-                          </p>
-                       </div>
-                    </div>
-                  )
-                })
-              }
+
+               <div className="row item">
+                  <div className="twelve columns">
+                     <h3>{"¿Quieres llegar a un mayor número de personas y hacer que tu empresa crezca al siguiente nivel?"}</h3>
+                     <br />
+                     <p style={{ color: 'black' }} /* className="info" */>
+                        {"Tu negocio necesita una página web que sorprenda a tus visitantes y haga que no duden en comprar tus productos o servicios para que así puedas aumentar tus ingresos y tu cartera de clientes."}
+                     </p>
+
+                  </div>
+               </div>
             </div>
          </div>
-        <div className="row work">
+         <div className="row work">
             <div className="three columns header-col">
-               <h1><span>Work</span></h1>
+               <h1><span>Profesional</span></h1>
             </div>
 
             <div className="nine columns main-col">
-              {
-                resumeData.work && resumeData.work.map((item , index) => {
-                  return(
-                    <div key={index} className="row item">
-                       <div className="twelve columns">
-                          <h3>{item.CompanyName}</h3>
-                          <p className="info">
-                          {item.specialization}
-                          <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
-                          <p>
-                          {item.Achievements}
-                          </p>
-                       </div>
+               {
+                  resumeData.work && resumeData.work.map((item, index) => {
+                     return (
+                        <div key={index} className={"row item"}>
+                           <div className={style.container}>
+                              <h3>{item.title}  </h3>
+                              <img src={item.img} alt="..." />
+                              <p /* className="info" */>
+                                 {item.description}
+                              </p>
+                           </div>
 
-                    </div>
+                        </div>
 
-                  )
-                })
-              }
-            </div> 
+                     )
+                  })
+               }
+            </div>
          </div>
 
 
          <div className="row skill">
 
             <div className="three columns header-col">
-               <h1><span>Skills</span></h1>
+               <h1><span>PRESENTACION</span></h1>
             </div>
 
-            <div className="nine columns main-col">
 
-               <p>
-               {resumeData.skillsDescription}
-               </p>
+            <div style={{position: "relative", overflow: "hidden", paddingTop: "56.25%"}}>
 
-   				<div className="bars">
+               <iframe src="https://share.synthesia.io/embeds/videos/a859c616-c5a4-47ae-8bd9-241e1560d86d" loading="lazy" title="Synthesia video player - Your AI video" allow="encrypted-media; fullscreen;" style={{position: "absolute", width: "90%", height: "100%", top: "0", left: "0", border: "none", padding: "0", margin: "0", overflow:"hidden"}}>
+               </iframe>
 
-   				   <ul className="skills">
-                {
-                  resumeData.skills && resumeData.skills.map((item, index) => {
-                    return(
-                      <li key={index}>
-                      <span className={`bar-expand ${item.skillname.toLowerCase()}`}>
-                      </span><em>{item.skillname}</em>
-                      </li>
-                    )
-                  })
-                }
-
-   					</ul>
-
-   				</div>
-
-   			</div>
+            </div>
+        
 
          </div>
 
       </section>
-    );
-  }
+   );
+}
