@@ -33,15 +33,13 @@ export default function ContactUs() {
         "service_dei1ufe",
         "template_n8ui5vf",
         form.current,
-        "K6G54Rgb1zUNM59wE"
+        "kM4Gxb0lVsGKkkEm9"
       )
     e.target.reset()
   };
 
   return (
-
     <section id="contact" >
-
       <form
         action=""
         className="contact__form"
