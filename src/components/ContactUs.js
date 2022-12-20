@@ -11,10 +11,10 @@ export default function ContactUs({resumeData}) {
 
     emailjs
       .sendForm(
-        "service_xm5eolk",
+        "service_dei1ufe",
         "template_n8ui5vf",
         form.current,
-        "K6G54Rgb1zUNM59wE"
+        "kM4Gxb0lVsGKkkEm9"
       )
     e.target.reset()
   };
