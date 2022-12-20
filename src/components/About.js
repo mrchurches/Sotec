@@ -1,43 +1,45 @@
 import React from 'react';
-export default function About({resumeData}) {
+import aboutUs from '../img/banners/sotec.png'
 
-    return (
+export default function About({ resumeData }) {
+
+   return (
       <section id="about">
          <div className="row">
 
             <div className="three columns">
 
-               <img className="profile-pic"  src="images/profilepic.jpg" alt="" />
+               <img style={{borderRadius: '10px', width:'200px', marginTop:"8px"}} src={aboutUs} alt="" />
 
             </div>
 
             <div className="nine columns main-col">
 
-               <h2>About Us</h2>
+               <h2>{"Sobre Nosotros"}</h2>
                <p>
-               {
-                 resumeData.aboutme
-               }
+                  {
+                     resumeData.aboutme
+                  }
                </p>
 
                <div className="row">
 
                   <div className="columns contact-details">
 
-                  <h2>Contact Details</h2>
-                  <p className="address">
-       						<span>{resumeData.name}</span>
-                     <br></br>
-       						   <span>
-                     {resumeData.address}
-                    </span>
-                    <br></br>
-                    <span>{resumeData.website}</span>
-       					   </p>
+                     <h2>{"Detalle de contacto"}</h2>
+                     <p className="address">
+                        <span>{resumeData.name}</span>
+                        <br></br>
+                        <span>
+                           {resumeData.address}
+                        </span>
+                        <br></br>
+                        <span>{resumeData.email}</span>
+                     </p>
                   </div>
                </div>
             </div>
          </div>
       </section>
-    );
-  }
+   );
+}

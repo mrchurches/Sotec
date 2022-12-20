@@ -1,8 +1,10 @@
+import { Provider } from "react-redux";
+import store from "./store";
 import React from "react";
 import NavBar from "./components/NavBar";
 import About from "./components/About";
 import Resume from "./components/Resume";
-import Portfolio from "./components/Portfolio";
+import Portfolio from "./components/Projects";
 import Testimonials from "./components/Testimonials";
 import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
@@ -11,33 +13,21 @@ import { ChatBotKit } from "./components/chatbot/Chatbot";
 
 import "./App.css"
 
-// class App extends Component {
-//   render() {
-//     return (
-//       <div className="App">
-//         <Header resumeData={resumeData}/>
-//         <About resumeData={resumeData}/>
-//         <Resume resumeData={resumeData}/>
-//         <Portfolio resumeData={resumeData}/>
-//         <Testimonials resumeData={resumeData}/>
-//         <ContactUs resumeData={resumeData}/>
-//         <Footer resumeData={resumeData}/>
-//       </div>
-//     );
-//   }
-// }
+
 
 function App() {
   return (
     <div className="App">
-      <ChatBotKit/>
-      <NavBar resumeData={resumeData} />
-      <About resumeData={resumeData} />
-      <Resume resumeData={resumeData} />
-      <Portfolio resumeData={resumeData} />
-      <Testimonials resumeData={resumeData} />
-      <ContactUs resumeData={resumeData} />
-      <Footer resumeData={resumeData} />
+      <Provider store={store}>
+         <ChatBotKit/>
+        <NavBar resumeData={resumeData} />
+        <About resumeData={resumeData} />
+        <Resume resumeData={resumeData} />
+        <Portfolio resumeData={resumeData} />
+        <Testimonials resumeData={resumeData} />
+        <ContactUs resumeData={resumeData} />
+        <Footer resumeData={resumeData} />
+      </Provider>
     </div>
   );
 }
