@@ -22,15 +22,15 @@
     /* align-items: space; */
     /* justify-content: center; */
     /* flex-direction: column; */
-    text-align: center;
     /* margin-left: 6rem; */
     padding-left: 2rem;
     text-align: right;
     padding-right: 15rem;
+    /* text-align: center; */
 }
 
 .buttonText {
-    text-align: justify;
+    /* text-align: justify; */
     padding: 1rem;
     padding-left: 3rem;
     padding-right: 0rem;
@@ -38,4 +38,13 @@
 
 .input {
     width: 80%;
+}
+
+h3 {
+    text-align: left;
+}
+
+p {
+    text-align: left;
+
 }
