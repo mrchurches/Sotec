@@ -15,7 +15,8 @@ const config = {
   },
   customComponents: {
     // Replaces the default header
-   header: () => <div style={{ backgroundColor: '#5ccc9d', padding: "3px", borderRadius: "4px" }}>Chatea con Chatec</div>,
+   header: () => <div style={{ backgroundColor: '#5ccc9d', padding: "3px", borderRadius: "4px" }}>
+    Chatea con Chatec</div>,
    // Replaces the default bot avatar
   //  botAvatar: (props) => <MyAvatar {...props} />,
   //  // Replaces the default bot chat message container
