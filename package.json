@@ -6,6 +6,7 @@
     "@emailjs/browser": "^3.10.0",
     "axios": "^1.2.1",
     "react": "^16.6.0",
+    "react-chatbot-kit": "^2.1.2",
     "react-dom": "^16.8.0",
     "react-redux": "^8.0.5",
     "react-scripts": "2.1.1",
