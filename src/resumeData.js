@@ -2,6 +2,8 @@ import clients from '../src/img/ico/clientesICO.png'
 import income from '../src/img/ico/incomeICO.png'
 import reputation from '../src/img/ico/reputationICO.png'
 import saveMoney from '../src/img/ico/savemoneyICO.png'
+import gifPF from "../src/img/projects/pf.gif"
+import wun from "../src/img/projects/shutterstock_519514441-1024x683.jpg"
 
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
@@ -85,26 +87,16 @@ let resumeData = {
         "skillname":"Reactjs"
       }
     ],
-    "portfolio":[
+    "projects":[
       {
         "name":"E-Commerce",
-        "description":"Aplicación Web",
-        "imgurl":"../src/img/projects/ecommcer.jpg"
+        "description":"Es una aplicación web dedicada a la venta de videojuegos, de complejo desarrollo en sus funcionalidades y adaptada 100% a las necesidades del cliente",
+        "imgurl": gifPF
       },
       {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
-      },
-      {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
-      },
-      {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"WUN",
+        "description":"WUN es una aplicación direccionada en su comienzo para programadores que inician o continuan sus estudios, para luego ser una herramienta de estudios para otras ciencias",
+        "imgurl": wun
       }
     ],
     "testimonials":[
