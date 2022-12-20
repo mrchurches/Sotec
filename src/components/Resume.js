@@ -26,8 +26,8 @@ export default function Resume({ resumeData }) {
                </div>
             </div>
          </div>
-         <div className="row work">
-            <div className="three columns header-col">
+         <div className="row work" >
+            <div className="three columns header-col" >
                <h1><span>Profesional</span></h1>
             </div>
 
@@ -35,6 +35,7 @@ export default function Resume({ resumeData }) {
                {
                   resumeData.work && resumeData.work.map((item, index) => {
                      return (
+                        
                         <div key={index} className={"row item"}>
                            <div className={style.container}>
                               <h3>{item.title}  </h3>
