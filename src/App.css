@@ -68,3 +68,45 @@
   padding: 1rem;
   height: auto;
 }
+
+/* css projects */
+
+#cont-p{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+
+.cont-projects{
+  display: flex;
+  align-content: center;
+
+}
+
+.projects{
+  box-shadow: 0.5rem 0.5rem 2rem 0.5rem;
+}
+
+.projects p{
+  padding: 1rem
+}
+
+.projects img{
+  padding-bottom: 1rem;
+}
+
+/*  css resume */
+
+#video{
+ position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+  padding-bottom: 0;
+}
+
+.cont-video iframe{
+ padding-bottom: 0;
+ margin-bottom: 0;
+ border: 0;
+}
