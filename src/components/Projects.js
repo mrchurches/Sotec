@@ -19,8 +19,7 @@ export default function Projects({resumeData}){
                           <h5>{item.name}</h5>
                           <p>{item.description}</p>
                         </div>
-                      </div>
-                   
+                      </div>                   
                   </div>
                 </div>
               )

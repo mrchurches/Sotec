@@ -60,7 +60,7 @@ export default function Resume({ resumeData }) {
             </div>
 
 
-            <div style={{position: "relative", overflow: "hidden", paddingTop: "56.25%"}}>
+            <div style={{position: "relative", overflow: "hidden", paddingTop: "42.25%"}}>
 
                <iframe src="https://share.synthesia.io/embeds/videos/a859c616-c5a4-47ae-8bd9-241e1560d86d" loading="lazy" title="Synthesia video player - Your AI video" allow="encrypted-media; fullscreen;" style={{position: "absolute", width: "90%", height: "100%", top: "0", left: "0", border: "none", padding: "0", margin: "0", overflow:"hidden"}}>
                </iframe>
