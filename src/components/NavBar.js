@@ -1,11 +1,21 @@
 import React from 'react';
 
-export default function NavBar({resumeData}) {
+
+export default function NavBar({resumeData, handleLang}) {
+   let lenguaje
+   handleLang(lenguaje)
 
    return (
       <React.Fragment>
          <header id="home">
             <nav style={{ backgroundColor: 'black', opacity: '65%' }} id="nav-wrap">
+               
+               
+               <select onChange={(e)=>handleLang(e.value, e)}>
+                  <option value={`en`}>English</option>
+                  <option value={`es`}>Español</option>
+               </select>
+
                <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
                <a className="mobile-btn" href="#hide-nav" title="Hide navigation">Hide navigation</a>
                <ul id="nav" className="nav">

@@ -1,7 +1,7 @@
 import { POST_USERS, CHANGE_LANGUAGE } from './actions.js'
 
 const initialState = {
-    language: true,
+    language: `es`,
     users: ["USERS GOLBAL STATE 1"],
 };
 
