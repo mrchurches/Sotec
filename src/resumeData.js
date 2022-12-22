@@ -5,12 +5,53 @@ import saveMoney from '../src/img/ico/savemoneyICO.png'
 
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
+    "language":"es",
     "name": "SOTEC",
     "role": "Soluciones Tecnologicas, ",
     "linkedinId":"Your LinkedIn Id",
     "skypeid": "Your skypeid",
     "roleDescription": "Diseño de páginas y aplicaciones web  ",
 
+    "mainTitles":{
+      "NavBar":{
+        "t1":"Inicio",
+        "t2":"Sobre Nosotros",
+        "t3":"Perspectiva",
+        "t4":"Proyectos",
+        "t5":"Testimonio",
+        "t6":"Contacto",
+      },
+      "AboutUs":{
+        "t1" : "Sobre Nosotros",
+        "t2" : "Detalle de Contacto",
+      },
+      "ContactUs":{
+        "input1" : {
+            "label": "Nombre",
+            "placeholder" : "Quien eres?"
+          },
+        "input2" : {
+            "label": "Mail",
+            "placeholder" : "Dejanos tu contacto"
+          },
+        "input3" : {
+            "label": "Mensaje",
+            "placeholder" : "Cuentanos tus ideas!"
+          },
+        "button" : "Eviar Mensaje",
+      },
+      "Resume":{
+        "t1" : "¿Nosotros?",
+        "st1" : "¿Quieres llegar a un mayor número de personas y hacer que tu empresa crezca al siguiente nivel?",
+        'p1' : 'Tu negocio necesita una página web que sorprenda a tus visitantes y haga que no duden en comprar tus productos o servicios para que así puedas aumentar tus ingresos y tu cartera de clientes.',
+        't2' : 'Profesional',
+        't3' : 'Presentación',
+      },
+      'Project' : {
+        't1' : 'Proyectos en Progreso',
+      }
+
+    },
 
     "socialLinks":[
         {
@@ -130,6 +171,7 @@ let resumeData = {
 
   let resumeDataEn = {
     "imagebaseurl":"https://rbhatia46.github.io/",
+    "language":"en",
     "name": "SOTEC",
     "role": "Tchnological Solutions, ",
     "linkedinId":"Your LinkedIn Id",
@@ -137,6 +179,48 @@ let resumeData = {
     "roleDescription": "Web App & Sites Development ",
 
 
+    "mainTitles":{
+      "NavBar":{
+        "t1":"Home",
+        "t2":"Sobre Nosotros",
+        "t3":"Perspectiva",
+        "t4":"Proyectos",
+        "t5":"Testimonio",
+        "t6":"Contacto",
+      },
+      "AboutUs":{
+        "t1" : "Sobre Nosotros",
+        "t2" : "Detalle de Contacto",
+      },
+      "ContactUs":{
+        "input1" : {
+            "label": "Nombre",
+            "placeholder" : "Quien eres?"
+          },
+        "input2" : {
+            "label": "Mail",
+            "placeholder" : "Dejanos tu contacto"
+          },
+        "input3" : {
+            "label": "Mensaje",
+            "placeholder" : "Cuentanos tus ideas!"
+          },
+        "button" : "Eviar Mensaje",
+      },
+      "Resume":{
+        "t1" : "¿Nosotros?",
+        "st1" : "¿Quieres llegar a un mayor número de personas y hacer que tu empresa crezca al siguiente nivel?",
+        'p1' : 'Tu negocio necesita una página web que sorprenda a tus visitantes y haga que no duden en comprar tus productos o servicios para que así puedas aumentar tus ingresos y tu cartera de clientes.',
+        't2' : 'Profesional',
+        't3' : 'Presentación',
+      },
+      'Project' : {
+        't1' : 'Proyectos en Progreso',
+      }
+
+    },
+
+    "titles":[],
     "socialLinks":[
         {
           "name":"linkedin",
