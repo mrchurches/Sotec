@@ -8,7 +8,7 @@ import Portfolio from "./components/Projects";
 import Testimonials from "./components/Testimonials";
 import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
-import resumeData from "./resumeData";
+import resumeDataORIGEN from "./resumeData";
 import { ChatBotKit } from "./components/chatbot/Chatbot";
 
 import "./App.css"
@@ -18,13 +18,13 @@ import "./App.css"
 function App() {
   
   const [lang,setLang] = useState(`es`)
-  // let resumeData
+  let resumeData
   const handleLang = (lan)=>{
     // (lan !== null || lan !== undefined) && e.preventDefault();
     setLang(lan);
   }
   console.log(` Language>.>>>>`, lang)
-   /*            switch (lang) {
+              switch (lang) {
             case `es`: 
             resumeData = resumeDataORIGEN.resumeData;
             break;
@@ -36,7 +36,8 @@ function App() {
               resumeData = resumeDataORIGEN.resumeData;
               break;
             }
-  */         
+       
+
   return (
     <div className="App">
       <Provider store={store}>

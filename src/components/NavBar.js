@@ -2,8 +2,17 @@ import React from 'react';
 
 
 export default function NavBar({resumeData, handleLang}) {
-   let lenguaje
-   handleLang(lenguaje)
+   // let lenguaje
+//   handleLang = (lenguaje, e)=>{
+//       e.preventDefault();
+//       console.log(lenguaje)
+//       if (e.target.value ==='es'){
+//          resumeData = resumeData.resumeData
+//       }
+//       else if (lenguaje==='en'){
+//          resumeData = resumeData.resumeDataEn
+//       }
+//    }
 
    return (
       <React.Fragment>
@@ -11,7 +20,7 @@ export default function NavBar({resumeData, handleLang}) {
             <nav style={{ backgroundColor: 'black', opacity: '65%' }} id="nav-wrap">
                
                
-               <select onChange={(e)=>handleLang(e.value, e)}>
+               <select onChange={(e)=>handleLang(e.target.value)} defaultValue={"es"}>
                   <option value={`en`}>English</option>
                   <option value={`es`}>Español</option>
                </select>
