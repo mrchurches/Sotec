@@ -4,6 +4,8 @@ import reputation from '../src/img/ico/reputationICO.png'
 import saveMoney from '../src/img/ico/savemoneyICO.png'
 import gifPF from "../src/img/projects/pf.gif"
 import wun from "../src/img/projects/shutterstock_519514441-1024x683.jpg"
+import wunTITLE from "../src/img/ico/wunTITLE.png"
+import ecommerceTITLE from "../src/img/ico/ecommerceTITLE.png"
 
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
@@ -129,15 +131,18 @@ let resumeData = {
       }
     ],
     "projects":[
-      {
-        "name":"E-Commerce",
-        "description":"Es una aplicación web dedicada a la venta de videojuegos, de complejo desarrollo en sus funcionalidades y adaptada 100% a las necesidades del cliente",
-        "imgurl": gifPF
-      },
+      
       {
         "name":"WUN",
         "description":"WUN es una aplicación direccionada en su comienzo para programadores que inician o continuan sus estudios, para luego ser una herramienta de estudios para otras ciencias",
-        "imgurl": wun
+        "imgurl": wun,
+        "icon": wunTITLE
+      },
+      {
+        "name":"E-Commerce",
+        "description":"Es una aplicación web dedicada a la venta de videojuegos, de complejo desarrollo en sus funcionalidades y adaptada 100% a las necesidades del cliente",
+        "imgurl": gifPF,
+        "icon": ecommerceTITLE
       }
     ],
     "testimonials":[
@@ -290,28 +295,22 @@ let resumeData = {
         "skillname":"Reactjs"
       }
     ],
-    "portfolio":[
+     "projects":[
+     
+      {
+        "name":"WUN",
+        "description":"WUN is an application directed at the beginning for programmers who start or continue their studies, to later be a study tool for other sciences",
+        "imgurl": wun,
+        "icon": wunTITLE
+      },
       {
         "name":"E-Commerce",
-        "description":"Web App",
-        "imgurl":"../src/img/projects/ecommcer.jpg"
-      },
-      {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
-      },
-      {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
-      },
-      {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "description":"It is a web application dedicated to the sale of video games, of complex development in its functionalities and 100% adapted to the needs of the client.",
+        "imgurl": gifPF,
+        "icon": ecommerceTITLE
       }
     ],
+
     "testimonials":[
       {
         "description":"Working with SOTEC, it was a good experience",
