@@ -7,8 +7,10 @@ export default function Projects({resumeData}){
       <section id="portfolio">
       <div className="row">
         <div className="twelve columns collapsed">
-          <h1>{"Proyectos"}</h1>
-          <div id="cont-p" className="bgrid-quarters s-bgrid-thirds cf cont-projects">
+
+          <h1>{resumeData.mainTitles.Project.t1}</h1>
+          <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+
           {
             resumeData.projects && resumeData.projects.map((item, index)=>{
               return(
@@ -23,8 +25,7 @@ export default function Projects({resumeData}){
                           <h5>{item.name}</h5>
                           <p>{item.description}</p>
                         </div>
-                      </div>
-                   
+                      </div>                   
                   </div>
                 </div>
               )

@@ -15,7 +15,7 @@ export default function About({ resumeData }) {
 
             <div className="nine columns main-col">
 
-               <h2>{"Sobre Nosotros"}</h2>
+               <h2>{resumeData.mainTitles.AboutUs.t1}</h2>
                <p>
                   {
                      resumeData.aboutme
@@ -26,7 +26,7 @@ export default function About({ resumeData }) {
 
                   <div className="columns contact-details">
 
-                     <h2>{"Detalle de contacto"}</h2>
+                     <h2>{resumeData.mainTitles.AboutUs.t2}</h2>
                      <p className="address">
                         <span>{resumeData.name}</span>
                         <br></br>

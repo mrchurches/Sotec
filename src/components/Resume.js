@@ -9,26 +9,30 @@ export default function Resume({ resumeData }) {
          <div className="row education">
 
             <div className="three columns header-col">
-               <h1><span>{"¿Nosotros?"}</span></h1>
+               <h1><span>{resumeData.mainTitles.Resume.t1}</span></h1>
             </div>
+            
+            
 
             <div className="nine columns main-col">
 
                <div className="row item">
                   <div className="twelve columns">
-                     <h3>{"¿Quieres llegar a un mayor número de personas y hacer que tu empresa crezca al siguiente nivel?"}</h3>
+                     <h3>{resumeData.mainTitles.Resume.st1}</h3>
                      <br />
                      <p style={{ color: 'black' }} /* className="info" */>
-                        {"Tu negocio necesita una página web que sorprenda a tus visitantes y haga que no duden en comprar tus productos o servicios para que así puedas aumentar tus ingresos y tu cartera de clientes."}
+                        {resumeData.mainTitles.Resume.p1}
                      </p>
 
                   </div>
                </div>
             </div>
          </div>
-         <div className="row work" >
-            <div className="three columns header-col" >
-               <h1><span>Profesional</span></h1>
+
+         <div className="row work">
+            <div className="three columns header-col">
+               <h1><span>{resumeData.mainTitles.Resume.t2}</span></h1>
+
             </div>
 
             <div className="nine columns main-col">
@@ -57,11 +61,13 @@ export default function Resume({ resumeData }) {
          <div className="row cont-video">
 
             <div className="three columns header-col">
-               <h1><span>PRESENTACION</span></h1>
+               <h1><span>{resumeData.mainTitles.Resume.t3}</span></h1>
             </div>
 
 
+
             <div id="video">
+
 
                <iframe src="https://share.synthesia.io/embeds/videos/a859c616-c5a4-47ae-8bd9-241e1560d86d" loading="lazy" title="Synthesia video player - Your AI video" allow="encrypted-media; fullscreen;" style={{position: "absolute", width: "90%", height: "80%", top: "0", left: "0", border: "none", padding: "0", margin: "0", overflow:"hidden"}}>
                </iframe>
