@@ -5,7 +5,7 @@ import NavBar from "./components/NavBar";
 import About from "./components/About";
 import Resume from "./components/Resume";
 import Portfolio from "./components/Projects";
-import Testimonials from "./components/Testimonials";
+import Reviews from "./components/Reviews";
 import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
 import resumeDataORIGEN from "./resumeData";
@@ -49,7 +49,7 @@ function App() {
         <About resumeData={resumeData} />
         <Resume resumeData={resumeData} />
         <Portfolio resumeData={resumeData} />
-        <Testimonials resumeData={resumeData} />
+        <Reviews resumeData={resumeData} />
         <ContactUs resumeData={resumeData} />
         <Footer resumeData={resumeData} />
       </Provider>

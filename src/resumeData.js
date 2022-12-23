@@ -22,7 +22,7 @@ let resumeData = {
         "t2":"Sobre Nosotros",
         "t3":"Perspectiva",
         "t4":"Proyectos",
-        "t5":"Testimonio",
+        "t5":"Reseñas",
         "t6":"Contacto",
       },
       "AboutUs":{
@@ -36,7 +36,7 @@ let resumeData = {
           },
         "input2" : {
             "label": "Mail",
-            "placeholder" : "Dejanos tu punto de contacto"
+            "placeholder" : "Dejanos tu e-mail de contacto"
           },
         "input3" : {
             "label": "Mensaje",
@@ -95,7 +95,7 @@ let resumeData = {
     ],
     "work":[
       {
-        "title":"Más Clientes ",
+        "title":"Más Clientes",
         "description":"Gracias a un sitio web diseñado por nosotros puedes convertir a tus visitantes en clientes",
         "img": clients
       },
@@ -183,7 +183,7 @@ let resumeData = {
         "t2":"About Us",
         "t3":"Perspective",
         "t4":"Projects",
-        "t5":"Testimonials",
+        "t5":"Reviews",
         "t6":"Contact",
       },
       "AboutUs":{
@@ -197,7 +197,7 @@ let resumeData = {
           },
         "input2" : {
             "label": "E-Mail",
-            "placeholder" : "Leave some contact point"
+            "placeholder" : "Leave some e-mail contact"
           },
         "input3" : {
             "label": "Menssage",

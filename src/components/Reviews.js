@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function  Testimonials({resumeData}){
+export default function  Reviews({resumeData}){
     return (
       <section id="testimonials">
         <div className="text-container">
