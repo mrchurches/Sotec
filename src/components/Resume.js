@@ -11,6 +11,8 @@ export default function Resume({ resumeData }) {
             <div className="three columns header-col">
                <h1><span>{resumeData.mainTitles.Resume.t1}</span></h1>
             </div>
+            
+            
 
             <div className="nine columns main-col">
 
@@ -26,15 +28,18 @@ export default function Resume({ resumeData }) {
                </div>
             </div>
          </div>
+
          <div className="row work">
             <div className="three columns header-col">
                <h1><span>{resumeData.mainTitles.Resume.t2}</span></h1>
+
             </div>
 
             <div className="nine columns main-col">
                {
                   resumeData.work && resumeData.work.map((item, index) => {
                      return (
+                        
                         <div key={index} className={"row item"}>
                            <div className={style.container}>
                               <h3>{item.title}  </h3>
@@ -53,16 +58,18 @@ export default function Resume({ resumeData }) {
          </div>
 
 
-         <div className="row skill">
+         <div className="row cont-video">
 
             <div className="three columns header-col">
                <h1><span>{resumeData.mainTitles.Resume.t3}</span></h1>
             </div>
 
 
-            <div style={{position: "relative", overflow: "hidden", paddingTop: "42.25%"}}>
 
-               <iframe src="https://share.synthesia.io/embeds/videos/a859c616-c5a4-47ae-8bd9-241e1560d86d" loading="lazy" title="Synthesia video player - Your AI video" allow="encrypted-media; fullscreen;" style={{position: "absolute", width: "90%", height: "100%", top: "0", left: "0", border: "none", padding: "0", margin: "0", overflow:"hidden"}}>
+            <div id="video">
+
+
+               <iframe src="https://share.synthesia.io/embeds/videos/a859c616-c5a4-47ae-8bd9-241e1560d86d" loading="lazy" title="Synthesia video player - Your AI video" allow="encrypted-media; fullscreen;" style={{position: "absolute", width: "90%", height: "80%", top: "0", left: "0", border: "none", padding: "0", margin: "0", overflow:"hidden"}}>
                </iframe>
 
             </div>
