@@ -51,32 +51,32 @@ export default function ContactUs({resumeData}) {
             onSubmit={sendEmail}
           >
             <div /* className="contact__form-div" */ >
-              <label className={`contact__form-tag ${styles.label}`}>{true ? "Name" : "Nombre"}</label> 
+              <label className={`contact__form-tag ${styles.label}`}>{resumeData.mainTitles.ContactUs.input1.label}</label> 
               <input
                 type="text"
                 name="name"
                 className={`contact__form-input ${styles.input}`}
-                placeholder={true ? "Insert your name" : "Escribe tu nombre"}
+                placeholder={resumeData.mainTitles.ContactUs.input1.placeholder}
               />
             </div>
             <div /* className="contact__form-div" */>
-              <label className={`contact__form-tag ${styles.label}`}>{"Mail"}</label>
+              <label className={`contact__form-tag ${styles.label}`}>{resumeData.mainTitles.ContactUs.input2.label}</label>
               <input
                 type="email"
                 name="email"
                 className={`contact__form-input ${styles.input}`}
-                placeholder={true ? "Insert your email" : "Escribe tu e-mail"}
+                placeholder={resumeData.mainTitles.ContactUs.input2.placeholder}
               />
             </div>
             <div className="contact__form-div contact__form-area">
-              <label className={`contact__form-tag ${styles.label}`}>{true ? "Message" : "Mensaje"}</label>
+              <label className={`contact__form-tag ${styles.label}`}>{resumeData.mainTitles.ContactUs.input3.label}</label>
               <textarea
                 name="message"
                 id=""
                 cols="30"
                 rows="10"
                 className={`contact__form-input ${styles.input}`}
-                placeholder={true ? "Here goes the message" : "Escribe tu mensaje"}
+                placeholder={resumeData.mainTitles.ContactUs.input3.placeholder}
               ></textarea>
             </div>
             
@@ -84,7 +84,7 @@ export default function ContactUs({resumeData}) {
               <>
               </>
               <button href="#contact" className={`button button--flex ${styles.buttonText}`}>
-                {true ? "     Send message" : "Enviar Mensaje"}
+                {resumeData.mainTitles.ContactUs.button}
                 <svg
                   className="button__icon"
                   xmlns="http://www.w3.org/2000/svg"

@@ -9,17 +9,17 @@ export default function Resume({ resumeData }) {
          <div className="row education">
 
             <div className="three columns header-col">
-               <h1><span>{"¿Nosotros?"}</span></h1>
+               <h1><span>{resumeData.mainTitles.Resume.t1}</span></h1>
             </div>
 
             <div className="nine columns main-col">
 
                <div className="row item">
                   <div className="twelve columns">
-                     <h3>{"¿Quieres llegar a un mayor número de personas y hacer que tu empresa crezca al siguiente nivel?"}</h3>
+                     <h3>{resumeData.mainTitles.Resume.st1}</h3>
                      <br />
                      <p style={{ color: 'black' }} /* className="info" */>
-                        {"Tu negocio necesita una página web que sorprenda a tus visitantes y haga que no duden en comprar tus productos o servicios para que así puedas aumentar tus ingresos y tu cartera de clientes."}
+                        {resumeData.mainTitles.Resume.p1}
                      </p>
 
                   </div>
@@ -28,7 +28,7 @@ export default function Resume({ resumeData }) {
          </div>
          <div className="row work">
             <div className="three columns header-col">
-               <h1><span>Profesional</span></h1>
+               <h1><span>{resumeData.mainTitles.Resume.t2}</span></h1>
             </div>
 
             <div className="nine columns main-col">
@@ -56,7 +56,7 @@ export default function Resume({ resumeData }) {
          <div className="row skill">
 
             <div className="three columns header-col">
-               <h1><span>PRESENTACION</span></h1>
+               <h1><span>{resumeData.mainTitles.Resume.t3}</span></h1>
             </div>
 
 

@@ -13,6 +13,7 @@ export default function NavBar({resumeData, handleLang}) {
 //          resumeData = resumeData.resumeDataEn
 //       }
 //    }
+   console.log('resumeData------------', resumeData.mainTitles.NavBar)
 
    return (
       <React.Fragment>
@@ -28,12 +29,12 @@ export default function NavBar({resumeData, handleLang}) {
                <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
                <a className="mobile-btn" href="#hide-nav" title="Hide navigation">Hide navigation</a>
                <ul id="nav" className="nav">
-                  <li className="current"><a className="smoothscroll" href="#home">{"Home"}</a></li>
-                  <li><a className="smoothscroll" href="#about">{"sobre nosotros"}</a></li>
-                  <li><a className="smoothscroll" href="#resume">{"Resume"}</a></li>
-                  <li><a className="smoothscroll" href="#portfolio">{"Proyectos"}</a></li>
-                  <li><a className="smoothscroll" href="#testimonials">{"Testimonios"}</a></li>
-                  <li><a className="smoothscroll" href="#contact">{"Contacto"}</a></li>
+                  <li className="current"><a className="smoothscroll" href="#home">{resumeData.mainTitles.NavBar.t1}</a></li>
+                  <li><a className="smoothscroll" href="#about">{resumeData.mainTitles.NavBar.t2}</a></li>
+                  <li><a className="smoothscroll" href="#resume">{resumeData.mainTitles.NavBar.t3}</a></li>
+                  <li><a className="smoothscroll" href="#portfolio">{resumeData.mainTitles.NavBar.t4}</a></li>
+                  <li><a className="smoothscroll" href="#testimonials">{resumeData.mainTitles.NavBar.t5}</a></li>
+                  <li><a className="smoothscroll" href="#contact">{resumeData.mainTitles.NavBar.t6}</a></li>
                </ul>
             </nav>
 

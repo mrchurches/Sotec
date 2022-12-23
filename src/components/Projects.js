@@ -6,7 +6,7 @@ export default function Projects({resumeData}){
       <section id="portfolio">
       <div className="row">
         <div className="twelve columns collapsed">
-          <h1>{"Proyectos en progreso"}</h1>
+          <h1>{resumeData.mainTitles.Project.t1}</h1>
           <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
           {
             resumeData.portfolio && resumeData.portfolio.map((item, index)=>{
