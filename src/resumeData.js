@@ -32,13 +32,13 @@ let resumeData = {
           },
         "input2" : {
             "label": "Mail",
-            "placeholder" : "Dejanos tu contacto"
+            "placeholder" : "Dejanos tu punto de contacto"
           },
         "input3" : {
             "label": "Mensaje",
-            "placeholder" : "Cuentanos tus ideas!"
+            "placeholder" : "Cómo podemos ayudarte?"
           },
-        "button" : "Eviar Mensaje",
+        "button" : "Enviar",
       },
       "Resume":{
         "t1" : "¿Nosotros?",
@@ -178,48 +178,52 @@ let resumeData = {
     "skypeid": "Your skypeid",
     "roleDescription": "Web App & Sites Development ",
 
+    //TODO traducir objeto mainTitles al inglés
 
     "mainTitles":{
       "NavBar":{
         "t1":"Home",
-        "t2":"Sobre Nosotros",
-        "t3":"Perspectiva",
-        "t4":"Proyectos",
-        "t5":"Testimonio",
-        "t6":"Contacto",
+        "t2":"About Us",
+        "t3":"Perspective",
+        "t4":"Projects",
+        "t5":"Testimonials",
+        "t6":"Contact",
       },
       "AboutUs":{
-        "t1" : "Sobre Nosotros",
-        "t2" : "Detalle de Contacto",
+        "t1" : "About Us",
+        "t2" : "Contact Detail",
       },
       "ContactUs":{
         "input1" : {
-            "label": "Nombre",
-            "placeholder" : "Quien eres?"
+            "label": "Name",
+            "placeholder" : "Who are you?"
           },
         "input2" : {
-            "label": "Mail",
-            "placeholder" : "Dejanos tu contacto"
+            "label": "E-Mail",
+            "placeholder" : "Leave some contact point"
           },
         "input3" : {
-            "label": "Mensaje",
-            "placeholder" : "Cuentanos tus ideas!"
+            "label": "Menssage",
+            "placeholder" : "How can we help you?"
           },
-        "button" : "Eviar Mensaje",
+        "button" : "Send",
       },
       "Resume":{
-        "t1" : "¿Nosotros?",
-        "st1" : "¿Quieres llegar a un mayor número de personas y hacer que tu empresa crezca al siguiente nivel?",
-        'p1' : 'Tu negocio necesita una página web que sorprenda a tus visitantes y haga que no duden en comprar tus productos o servicios para que así puedas aumentar tus ingresos y tu cartera de clientes.',
+        "t1" : "Us?",
+        "st1" : "Do you want to reach a greater number of people and make your company grow to the next level?",
+
+        'p1' : 'Your business needs a web page that surprises your visitors and makes them not hesitate to buy your products or services so that you can increase your income and your customer base.',
+
         't2' : 'Profesional',
-        't3' : 'Presentación',
+
+        't3' : 'Presentation',
       },
       'Project' : {
-        't1' : 'Proyectos en Progreso',
+        't1' : 'Projects in Progress',
       }
 
     },
-
+    
     "titles":[],
     "socialLinks":[
         {
