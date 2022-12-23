@@ -18,10 +18,13 @@ import "./App.css"
 function App() {
   
   const [lang,setLang] = useState(`es`)
+
   let resumeData
+
   const handleLang = (lan)=>{
-    // (lan !== null || lan !== undefined) && e.preventDefault();
+    
     setLang(lan);
+    
   }
   console.log(` Language>.>>>>`, lang)
               switch (lang) {

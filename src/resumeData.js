@@ -208,11 +208,6 @@ let resumeData = {
           },
         "button" : "Send",
       },
-      "Resume" : {
-        "t1" : "Us",
-        "q" : "Do you want to reach a greater number of people and make your company grow to the next level?",
-        "p" : "",
-      },
       "Resume":{
         "t1" : "Us?",
         "st1" : "Do you want to reach a greater number of people and make your company grow to the next level?",

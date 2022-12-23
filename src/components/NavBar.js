@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 export default function NavBar({resumeData, handleLang}) {
    // let lenguaje
 //   handleLang = (lenguaje, e)=>{
@@ -40,8 +39,8 @@ export default function NavBar({resumeData, handleLang}) {
 
             <div className="row banner">
                <div className="banner-text">
-                  <h1 /* style={{backgroundColor:'black', opacity: '75%', }} */ className="responsive-headline">{resumeData.name}</h1>
-                  <h3 style={{ backgroundColor: 'black', opacity: '65%', color: '#fff', fontFamily: 'sans-serif ' }}> {resumeData.role}  {resumeData.roleDescription}
+                  <h1 /* style={{backgroundColor:'black', opacity: '75%', }} */ className={`responsive-headline `}>{resumeData.name}</h1>
+                  <h3 style={{ textAlign:'center', backgroundColor: 'black', opacity: '65%', color: '#fff', fontFamily: 'sans-serif ' }} > {resumeData.role}  {resumeData.roleDescription}
                   </h3>
                   <hr />
                   <ul className="social">
